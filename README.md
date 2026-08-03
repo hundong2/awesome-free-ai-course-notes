@@ -79,7 +79,7 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a PR. Quick version:
 
 ## ⚖️ Why Official Links Only
 
-Same philosophy as the parent project: this repository doesn't host any files. It's an index pointing to what universities and instructors already publish openly. If a link breaks, please open an [issue](../../issues/new/choose).
+Same philosophy as the parent project: this repository doesn't host any files. It's an index pointing to what universities and instructors already publish openly. If a link breaks, please open an [issue](https://github.com/MarcosSete/awesome-free-ai-course-notes/issues/new/choose).
 
 ---
 
