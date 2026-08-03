@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Contribution guidelines
+    url: https://github.com/MarcosSete/awesome-free-ai-course-notes/blob/main/CONTRIBUTING.md
+    about: Read this before suggesting an entry or opening a PR — the criteria are strict.

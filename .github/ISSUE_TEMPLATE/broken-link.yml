@@ -1,0 +1,35 @@
+name: 🔗 Broken or incorrect link
+description: Report a dead link or an entry that's no longer official/free
+title: "[Broken Link]: "
+labels: ["broken-link"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: University / Course
+    validations:
+      required: true
+  - type: input
+    id: current-link
+    attributes:
+      label: Current link in the README
+    validations:
+      required: true
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: What's wrong?
+      options:
+        - 404 / page not found
+        - Moved to a new URL
+        - Now requires login
+        - No longer written notes (replaced with slides only)
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: fixed-link
+    attributes:
+      label: Corrected link (if you have one)
+    validations:
+      required: false

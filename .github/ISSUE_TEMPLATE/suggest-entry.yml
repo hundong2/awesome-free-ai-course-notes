@@ -1,0 +1,45 @@
+name: 📓 Suggest a course notes entry
+description: Propose official, free, written university course notes to add
+title: "[Suggestion]: "
+labels: ["new-entry"]
+body:
+  - type: input
+    id: university
+    attributes:
+      label: University
+    validations:
+      required: true
+  - type: input
+    id: course
+    attributes:
+      label: Course code / title
+    validations:
+      required: true
+  - type: input
+    id: instructor
+    attributes:
+      label: Instructor(s)
+    validations:
+      required: false
+  - type: input
+    id: link
+    attributes:
+      label: Official link to the notes
+      description: Must be the professor's/course's own page, not a mirror.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: This is written prose notes, not slides or video-only material
+          required: true
+        - label: This is official and requires no login
+          required: true
+  - type: textarea
+    id: proof
+    attributes:
+      label: How do you know it's official, free, and written (not slides)?
+    validations:
+      required: true
