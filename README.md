@@ -5,6 +5,10 @@
 [![Link Check](https://github.com/MarcosSete/awesome-free-ai-course-notes/actions/workflows/link-check.yml/badge.svg)](https://github.com/MarcosSete/awesome-free-ai-course-notes/actions/workflows/link-check.yml)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](LICENSE)
 
+**Languages:** English | [한국어](README_kor.md)
+
+한국어 학습 자료: [과정별 번역 노트](lecture/README.md) · [학습 가이드](guide/README.md)
+
 > A curated list of **official, free, written course notes** on AI/Machine Learning from top universities worldwide — the kind some departments publish instead of assigning a paid textbook.
 
 This is a companion project to [Awesome Free AI Books](https://github.com/MarcosSete/awesome-free-ai-books), focused on a different (and much rarer) kind of resource: course notes written and published directly by the instructors themselves, freely available, and detailed enough to function as a textbook substitute.
